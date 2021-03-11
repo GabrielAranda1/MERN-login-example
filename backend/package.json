@@ -1,0 +1,38 @@
+{
+  "name": "userapiexample",
+  "version": "1.0.0",
+  "description": "An RESTful API example of a User managment module",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node dist/src/server.js",
+    "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+    "test": "jest",
+    "build": "tsc --build && cp .env ./dist/.env"
+  },
+  "author": "Gabriel Aranda",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/jest": "^26.0.20",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.10.3",
+    "@types/supertest": "^2.0.10",
+    "jest": "^26.6.3",
+    "mongodb-memory-server": "^6.9.6",
+    "ts-jest": "^26.5.3",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^5.11.19",
+    "supertest": "^6.1.3"
+  }
+}

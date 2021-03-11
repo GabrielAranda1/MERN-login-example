@@ -1,0 +1,14 @@
+form.form .delete {
+  display: flex;
+  color: #d65544;
+  text-decoration: none;
+  margin-top: 12px;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: color 0.2s;
+}
+
+form.form .delete:hover {
+  color: #bd3b2a;
+}

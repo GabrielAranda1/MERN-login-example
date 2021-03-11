@@ -43,4 +43,8 @@ $ npm run dev
 $ npm start
 ```
 
+## Testes
+
+Para executar os testes da aplicação, basta utilizar o comando `npm test` dentro do diretório "backend".
+
 #
